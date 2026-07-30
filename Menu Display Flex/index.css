@@ -1,0 +1,26 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    background-color: brown;
+    padding: 10px;
+    align-items: center;
+}
+
+.ics{
+    display: flex;
+    list-style: none;
+    gap: 500px;
+    font-size: larger;
+    align-items: center;
+}
+
+.ics a{
+    color: white;
+}
+
+.ics a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
