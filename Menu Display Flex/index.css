@@ -1,25 +1,21 @@
-@media (min-width :768px) {
-
-.menu {
+.nav {
     display: flex;
-    justify-content: center;
     font-size: larger;
     background-color: brown;
     padding: 10px;
-    align-items: center;
-    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
-.ics {
+.menu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style: none;
-    gap: 500px;
+    gap: 30px;
     font-size: larger;
-    align-items: center;
 }
 
-.ics a {
+.menu a {
     color: white;
 }
 
@@ -27,10 +23,26 @@
     margin-bottom: 0;
 }
 
-.ics a:hover {
+.menu a:hover {
     color: black;
     text-decoration: underline;
     
 }
 
+@media (min-width: 768px) {
+    .menu {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo {
+        margin-bottom: 0;
+        width: 0;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 30px;
+    }
 }
