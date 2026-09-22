@@ -14,7 +14,9 @@ console.log(7 + 8 + 9);
   o texto "15" e não o número 15.
 */
 console.log("7" + "8");
+//Pois sao Strings, no Caso em texto, nao numeros, resultando em 78, nao 15
 
 // Tarefa 3: crie você mesmo mais uma linha de código (um console.log à sua escolha)
 //         e escreva um comentário de uma linha explicando o que ela faz.
 
+console.log(7/2)//Divisao
